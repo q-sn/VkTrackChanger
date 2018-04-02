@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "VkTrackChanger",
+  "version": "0.0.1",
+  "background": {
+    "scripts": [
+      "command.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.vk.com/*"
+      ],
+      "js": [
+        "changeTrack.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ],
+  "commands": {
+    "nextTrack": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+1"
+      },
+      "description": "nextTrack",
+      "global": true
+    },
+    "prevTrack": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+2"
+      },
+      "description": "prevTrack",
+      "global": true
+    }
+  }
+}
