@@ -35,6 +35,42 @@
       },
       "description": "prevTrack",
       "global": true
+    },
+    "changeAudioTime": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+3"
+      },
+      "description": "rewind for 25 seconds",
+      "global": true
     }
+//    },
+//    "stopStartTrack": {
+//      "suggested_key": {
+//        "default": "Ctrl+Shift+3"
+//      },
+//      "description": "stopStartTrack",
+//      "global": true
+//    },
+//    "startPlayer": {
+//      "suggested_key": {
+//        "default": "Ctrl+Shift+4"
+//      },
+//      "description": "startPlayer",
+//      "global": true
+//    },
+//    "volumeUp": {
+//      "suggested_key": {
+//        "default": "Ctrl+Shift+5"
+//      },
+//      "description": "volumeUp",
+//      "global": true
+//    },
+//    "volumeDown": {
+//      "suggested_key": {
+//        "default": "Ctrl+Shift+6"
+//      },
+//      "description": "volumeDown",
+//      "global": true
+//    }
   }
 }

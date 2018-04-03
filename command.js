@@ -7,8 +7,8 @@ sendMessage = (tabInfo, command) => {
 };
 
 changeTrack = (command) => {
-    if (command == "nextTrack" || command == "prevTrack") {
-        sendMessage({url: "*://*.vk.com/*", audible: true}, {command: command});
+    if (command == "nextTrack" || command == "prevTrack" || command == "changeAudioTime") {
+        sendMessage({url: "*://*.vk.com/*"}, {command: command});
     }
 };
 
