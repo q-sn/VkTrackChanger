@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "VkTrackChanger",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "background": {
     "scripts": [
       "command.js"

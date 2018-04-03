@@ -1,4 +1,4 @@
-console.log('VkTrackChanger 0.0.1');
+console.log('VkTrackChanger 0.0.3');
 
 changeTrack = (command) => {
     switch (command) {
