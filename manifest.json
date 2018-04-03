@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "VkTrackChanger",
+  "name": "vk-simple-audio-player",
   "version": "0.0.3",
   "background": {
     "scripts": [
